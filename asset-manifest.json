@@ -1,17 +1,24 @@
 {
   "files": {
     "main.css": "/Dolbina/Ecosolution/static/css/main.28f5bfe0.css",
-    "main.js": "/Dolbina/Ecosolution/static/js/main.1e74fe70.js",
+    "main.js": "/Dolbina/Ecosolution/static/js/main.cf971d6d.js",
     "static/media/FiraSans-Regular.ttf": "/Dolbina/Ecosolution/static/media/FiraSans-Regular.f4eb295ecc2fb842d61c.ttf",
     "static/media/FiraSans-Thin.ttf": "/Dolbina/Ecosolution/static/media/FiraSans-Thin.97ddc44a9f08c41d9429.ttf",
+    "static/media/main-desk@2x.jpg": "/Dolbina/Ecosolution/static/media/main-desk@2x.41e718e96ec2119d00b6.jpg",
+    "static/media/main-tabl@2x.jpg": "/Dolbina/Ecosolution/static/media/main-tabl@2x.27968456ab3aa3b8c7e6.jpg",
     "static/media/Oswald-Bold.ttf": "/Dolbina/Ecosolution/static/media/Oswald-Bold.41669c1e4f6bdc605d26.ttf",
     "static/media/Oswald-Regular.ttf": "/Dolbina/Ecosolution/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
+    "static/media/main-desk.jpg": "/Dolbina/Ecosolution/static/media/main-desk.d4c6b9ed5da27901e809.jpg",
+    "static/media/main-mob@2x.jpg": "/Dolbina/Ecosolution/static/media/main-mob@2x.533cc5f8b2b97abe2c2e.jpg",
+    "static/media/main-tabl.jpg": "/Dolbina/Ecosolution/static/media/main-tabl.be4f439a4ae75f83fd91.jpg",
+    "static/media/main-mob.jpg": "/Dolbina/Ecosolution/static/media/main-mob.c16f6af6581c0d6c4e69.jpg",
+    "static/media/symbol-defs (1).svg": "/Dolbina/Ecosolution/static/media/symbol-defs (1).adb2873135823915e26a2f9bfd244e04.svg",
     "index.html": "/Dolbina/Ecosolution/index.html",
     "main.28f5bfe0.css.map": "/Dolbina/Ecosolution/static/css/main.28f5bfe0.css.map",
-    "main.1e74fe70.js.map": "/Dolbina/Ecosolution/static/js/main.1e74fe70.js.map"
+    "main.cf971d6d.js.map": "/Dolbina/Ecosolution/static/js/main.cf971d6d.js.map"
   },
   "entrypoints": [
     "static/css/main.28f5bfe0.css",
-    "static/js/main.1e74fe70.js"
+    "static/js/main.cf971d6d.js"
   ]
 }
