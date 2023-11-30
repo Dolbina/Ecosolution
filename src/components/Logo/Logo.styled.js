@@ -5,25 +5,31 @@ export const LogoWrapper = styled.div`
   gap: 4px;
   justify-content: space-between;
 
-  @media (min-width: 768px) {
-  }
-  @media (min-width: 1280px) {
-  }
+
+
 `;
 
 export const LogoName = styled.p`
   color: #173d33;
   font-size: 33px;
- 
+
   font-weight: 500;
   line-height: normal;
   letter-spacing: -1.32px;
 
- 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #97d28b;
+  }
 `;
 
-export const Icon = styled.div`
-  width: 30px;
+export const Icon = styled.svg`
+  width: 31px;
+  height: 18px;
+  
+  fill: none;
 `;
 
 export const LogoSecondWrap = styled.div`

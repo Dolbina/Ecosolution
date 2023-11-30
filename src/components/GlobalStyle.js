@@ -56,24 +56,25 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'OswaldRegular','Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
    
-  color: rgba(18, 20, 23, 0.50);
+  color: #292D32;
    font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
   
-  background-color: #fff;
+  background-color: #F3F5FA;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 p {
   margin: 0;
+  font-family: 'FiraSansRegular',
 }
 
 ul, ol {
@@ -84,6 +85,7 @@ ul, ol {
 
 h1, h2, h3{
   margin: 0;
+  font-family: 'OswaldRegular',
 }
 
  a {
