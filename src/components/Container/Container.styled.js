@@ -1,21 +1,23 @@
 import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
-background-color:#F3F5FA;
-  height: 100%;
+ 
+  width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 36px;
-  padding-bottom: 24px;
+  margin: 0 auto;
 
+  @media (min-width: 480px) {
+    width: 480px;
+  }
   @media (min-width: 768px) {
+    width: 768px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 40px;
   }
-  @media (min-width: 1280px) {
+  @media (min-width: 1440px) {
+    width: 1440px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 24px;
   }
 `;

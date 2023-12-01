@@ -1,4 +1,11 @@
-import { AboutSection, AboutTitle, AboutText, AboutWrap } from './About.styled';
+import {
+  AboutSection,
+  AboutTitle,
+  AboutText,
+  AboutWrap,
+ 
+} from './About.styled';
+import AboutList from 'components/AboutList/AboutList';
 
 
 const About = () => {
@@ -14,6 +21,7 @@ const About = () => {
             meet the world's energy needs.
           </AboutText>
         </AboutWrap>
+       <AboutList/>
       </AboutSection>
     );
 };

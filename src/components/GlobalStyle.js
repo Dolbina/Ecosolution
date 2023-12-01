@@ -74,13 +74,14 @@ img {
 
 p {
   margin: 0;
-  font-family: 'FiraSansRegular',
+  font-family: 'FiraSansRegular';
 }
 
 ul, ol {
   margin: 0;
   padding: 0;
   list-style: none;
+  
 }
 
 h1, h2, h3{

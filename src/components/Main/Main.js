@@ -69,7 +69,7 @@ const Main = () => {
         <picture>
           <source
             srcSet={`${mainDesk}, ${mainDesk2x} 2x`}
-            media={`(min-width: 1280px)`}
+            media={`(min-width: 1400px)`}
           />
           <source
             srcSet={`${mainTabl}, ${mainTabl2x} 2x`}

@@ -6,9 +6,8 @@ export const AboutSection = styled.section`
   @media (min-width: 768px) {
     margin-top: 100px;
   }
-    @media (min-width: 1280px) {
-      margin-top: 120px;
-    
+  @media (min-width: 1440px) {
+    margin-top: 120px;
   }
 `;
 
@@ -26,7 +25,7 @@ export const AboutTitle = styled.h2`
     width: 272px;
     height: 72px;
   }
-  @media (min-width: 1280px) {
+  @media (min-width: 1440px) {
     font-size: 48px;
     width: 365px;
     height: 96px;
@@ -48,7 +47,7 @@ export const AboutText = styled.p`
     width: 342px;
     height: 114px;
   }
-  @media (min-width: 1280px) {
+  @media (min-width: 1440px) {
     width: 459px;
     height: 95px;
   }
@@ -61,8 +60,8 @@ export const AboutWrap = styled.div`
 
   @media (min-width: 768px) {
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
   }
-  @media (min-width: 1280px) {
+  @media (min-width: 1440px) {
   }
 `;
