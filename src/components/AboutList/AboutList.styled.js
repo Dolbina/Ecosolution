@@ -7,7 +7,7 @@ export const AboutValuesWrap = styled.div`
     margin-top: 100px;
   }
   @media (min-width: 1440px) {
-    margin-top: 122px;
+    margin-top: 120px;
   }
 `;
 

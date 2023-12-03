@@ -4,6 +4,9 @@ import Main from './Main/Main';
 import About from './About/About';
 
 import Header from './Header/Header';
+import Electricity from './Electricity/Electricity';
+import Cases from './Cases/Cases'; 
+
 export const App = () => {
   return (
     <>
@@ -11,7 +14,8 @@ export const App = () => {
         <Header />
         <Main />
         <About/>
-   
+        <Electricity />
+        <Cases/>
       <GlobalStyle />
       </Container>
     </>

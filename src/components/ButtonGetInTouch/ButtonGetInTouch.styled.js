@@ -36,16 +36,21 @@ export const Button = styled.button`
       color: #97d28b;
       > span {
         background-color: #97d28b;
+        color: #173d33;
       }
+      
     }
   }
 `;
 export const Circle = styled.span`
-display: inline-block;
+  display: flex;
   width: 14px;
   height: 14px;
   border-radius: 50%;
+  justify-content: center;
+  align-items: center;
   background-color: #173d33;
+  color: transparent;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 `;

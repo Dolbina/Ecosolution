@@ -128,7 +128,9 @@ export const ButtonLearnMore = styled.button`
 `;
 
 export const Circle = styled.span`
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 32px;
   height: 32px;
   border-radius: 50%;
