@@ -6,17 +6,21 @@ import About from './About/About';
 import Header from './Header/Header';
 import Electricity from './Electricity/Electricity';
 import Cases from './Cases/Cases'; 
+import FQA from './FAQ/FAQ'; 
+import ContactUs from './ContactUs/ContactUs';
 
 export const App = () => {
   return (
     <>
+      <Header />
       <Container>
-        <Header />
         <Main />
-        <About/>
+        <About />
         <Electricity />
-        <Cases/>
-      <GlobalStyle />
+        <Cases />
+        <FQA />
+        <ContactUs />
+        <GlobalStyle />
       </Container>
     </>
   );

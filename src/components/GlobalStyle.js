@@ -64,6 +64,8 @@ body {
   background-color: #F3F5FA;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  scroll-behavior: smooth;
 }
 
 img {
@@ -97,5 +99,9 @@ h1, h2, h3{
   button {
     cursor: pointer;
   }
+
+  address {
+  font-style: normal;
+}
 
 `;

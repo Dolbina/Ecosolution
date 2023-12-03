@@ -4,9 +4,6 @@ export const LogoWrapper = styled.div`
   display: flex;
   gap: 4px;
   justify-content: space-between;
-
-
-
 `;
 
 export const LogoName = styled.p`
@@ -33,8 +30,10 @@ export const Icon = styled.svg`
 `;
 
 export const LogoSecondWrap = styled.div`
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
  
 `;
 
@@ -47,7 +46,7 @@ export const LogoSecondText = styled.p`
   line-height: 1.11;
   letter-spacing: -0.4px;
 `;
-export const LogoTextSpan = styled.p`
+export const LogoTextSpan = styled.span`
   color: #97d28b;
 `;
 

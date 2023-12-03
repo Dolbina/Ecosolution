@@ -31,6 +31,11 @@ import mainDesk2x from '../../assets/images/main-desk@2x.jpg';
 
 
 const Main = () => {
+
+  const scrollToCases = () => {
+    const casesSection = document.getElementById('cases-section');
+    casesSection.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <>
       <MainSection>
@@ -45,8 +50,9 @@ const Main = () => {
                 sources, generating power generation using energy wind, sun,
                 water, biomass
               </MainText>
-              <ButtonLearnMore>
-                Learn more{' '}
+
+              <ButtonLearnMore onClick={scrollToCases}>
+                Learn more
                 <Circle>
                   <IconArrow>
                     <use href={icon + '#icon-arrow-right-16'}></use>
