@@ -1,32 +1,40 @@
 {
   "files": {
-    "main.css": "/Ecosolution/static/css/main.2e75245c.css",
-    "main.js": "/Ecosolution/static/js/main.fad0edcf.js",
+    "main.css": "/Ecosolution/static/css/main.67d9b627.css",
+    "main.js": "/Ecosolution/static/js/main.e5a181d2.js",
     "static/media/FiraSans-Regular.ttf": "/Ecosolution/static/media/FiraSans-Regular.f4eb295ecc2fb842d61c.ttf",
     "static/media/FiraSans-Thin.ttf": "/Ecosolution/static/media/FiraSans-Thin.97ddc44a9f08c41d9429.ttf",
     "static/media/main-desk@2x.jpg": "/Ecosolution/static/media/main-desk@2x.41e718e96ec2119d00b6.jpg",
     "static/media/main-tabl@2x.jpg": "/Ecosolution/static/media/main-tabl@2x.27968456ab3aa3b8c7e6.jpg",
+    "static/media/slide-2@2x.jpg": "/Ecosolution/static/media/slide-2@2x.0f57668dfe2e5b3ffa2a.jpg",
     "static/media/Oswald-Bold.ttf": "/Ecosolution/static/media/Oswald-Bold.41669c1e4f6bdc605d26.ttf",
     "static/media/Oswald-Regular.ttf": "/Ecosolution/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
     "static/media/main-desk.jpg": "/Ecosolution/static/media/main-desk.d4c6b9ed5da27901e809.jpg",
+    "static/media/slide-3@2x.jpg": "/Ecosolution/static/media/slide-3@2x.029343fa2f374381b487.jpg",
     "static/media/slide-1@2x.jpg": "/Ecosolution/static/media/slide-1@2x.54fde24c8e4d57ae28d1.jpg",
+    "static/media/slide-5@2x.jpg": "/Ecosolution/static/media/slide-5@2x.fbcf6062bc5700f0da20.jpg",
     "static/media/wind-farms-fields-desk@2x.jpg": "/Ecosolution/static/media/wind-farms-fields-desk@2x.9abf599a4f9efc5429d9.jpg",
+    "static/media/slide-4@2x.jpg": "/Ecosolution/static/media/slide-4@2x.2cc562a02dea322f1c33.jpg",
     "static/media/man-worker-desk.jpg": "/Ecosolution/static/media/man-worker-desk.5f38693ed7f13ac35aba.jpg",
     "static/media/main-mob@2x.jpg": "/Ecosolution/static/media/main-mob@2x.533cc5f8b2b97abe2c2e.jpg",
     "static/media/main-tabl.jpg": "/Ecosolution/static/media/main-tabl.be4f439a4ae75f83fd91.jpg",
+    "static/media/slide-2.jpg": "/Ecosolution/static/media/slide-2.3dfa01168465be0f7db0.jpg",
+    "static/media/slide-3.jpg": "/Ecosolution/static/media/slide-3.207d006f7e5c90db0b08.jpg",
     "static/media/wind-farms-fields-tabl@2x.jpg": "/Ecosolution/static/media/wind-farms-fields-tabl@2x.64d87be628c6fabbf944.jpg",
+    "static/media/slide-5.jpg": "/Ecosolution/static/media/slide-5.160c5021447e19b0a748.jpg",
     "static/media/slide-1.jpg": "/Ecosolution/static/media/slide-1.666e0c05986ee762512b.jpg",
     "static/media/wind-farms-fields-desk.jpg": "/Ecosolution/static/media/wind-farms-fields-desk.72ae7da86167cce66776.jpg",
     "static/media/man-worker-tabl@2x.jpg": "/Ecosolution/static/media/man-worker-tabl@2x.ed127abba19bfa05e3d0.jpg",
+    "static/media/slide-4.jpg": "/Ecosolution/static/media/slide-4.ac273305e9c64ecd49c7.jpg",
     "static/media/man-worker-desk@2x.jpg": "/Ecosolution/static/media/man-worker-desk@2x.a2e44c5a5cb54b62aaf3.jpg",
     "static/media/main-mob.jpg": "/Ecosolution/static/media/main-mob.c16f6af6581c0d6c4e69.jpg",
-    "static/media/symbol-defs (1).svg": "/Ecosolution/static/media/symbol-defs (1).adb2873135823915e26a2f9bfd244e04.svg",
+    "static/media/symbol-defs (1).svg": "/Ecosolution/static/media/symbol-defs (1).111713e0c67bc15f0fe632b1953cef31.svg",
     "index.html": "/Ecosolution/index.html",
-    "main.2e75245c.css.map": "/Ecosolution/static/css/main.2e75245c.css.map",
-    "main.fad0edcf.js.map": "/Ecosolution/static/js/main.fad0edcf.js.map"
+    "main.67d9b627.css.map": "/Ecosolution/static/css/main.67d9b627.css.map",
+    "main.e5a181d2.js.map": "/Ecosolution/static/js/main.e5a181d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e75245c.css",
-    "static/js/main.fad0edcf.js"
+    "static/css/main.67d9b627.css",
+    "static/js/main.e5a181d2.js"
   ]
 }
