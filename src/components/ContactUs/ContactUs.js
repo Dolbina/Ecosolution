@@ -1,4 +1,3 @@
-
 import {
   ContactUsSection,
   ContactUsWrap,
@@ -17,11 +16,10 @@ import icon from '../../assets/icons/symbol-defs (1).svg';
 
 import FormaRegistration from 'components/FormaRegistration/FormaRegistration.js';
 
-
 const ContactUs = () => {
-const handleSave = formData => {
-  console.log('Saved:', formData);
-};
+  const handleSave = formData => {
+    console.log('Saved:', formData);
+  };
   return (
     <ContactUsSection id="contact-section">
       <ContactUsTitleWrap>

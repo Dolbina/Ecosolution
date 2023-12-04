@@ -28,10 +28,7 @@ import mainTabl2x from '../../assets/images/main-tabl@2x.jpg';
 import mainDesk from '../../assets/images/main-desk.jpg';
 import mainDesk2x from '../../assets/images/main-desk@2x.jpg';
 
-
-
 const Main = () => {
-
   const scrollToCases = () => {
     const casesSection = document.getElementById('cases-section');
     casesSection.scrollIntoView({ behavior: 'smooth' });

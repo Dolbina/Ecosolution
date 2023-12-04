@@ -63,8 +63,6 @@ export const CasesTitleWrap = styled.div`
   }
 `;
 
-
-
 export const ArrowWrap = styled.div`
   display: flex;
   height: 66px;
@@ -98,7 +96,7 @@ export const ArrowWrapSecond = styled.div`
 export const NumberPhoto = styled.p`
   color: #173d33;
   text-align: justify;
-   font-size: 28px;
+  font-size: 28px;
   font-weight: 300;
   line-height: normal;
   letter-spacing: -1.12px;
@@ -110,7 +108,7 @@ export const NumberPhotoSpan = styled.span`
 
 export const NumberPhotoWrap = styled.div`
   display: flex;
-    align-items: flex-end;
+  align-items: flex-end;
 `;
 
 export const Rectangle = styled.div`
@@ -126,8 +124,6 @@ export const Rectangle = styled.div`
   }
 `;
 
-
-
 export const CasesItemWrap = styled.div`
   display: flex;
   flex-direction: column;
@@ -142,25 +138,13 @@ export const CasesItemWrap = styled.div`
 `;
 
 export const ImgSlide = styled.img`
-  /* width: 320px; */
-
-  @media (min-width: 768px) {
-    /* width: 343px; */
-
-    @media (min-width: 1440px) {
-      /* width: 596px; */
-    }
-  }
+  width: 100%;
 `;
 
 export const SignWrap = styled.div`
   display: block;
   padding: 24px 12px 12px 12px;
   background-color: #eaedf1;
-  @media (min-width: 768px) {
-    @media (min-width: 1440px) {
-    }
-  }
 `;
 
 export const Sign = styled.p`
@@ -171,11 +155,6 @@ export const Sign = styled.p`
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.72px;
-
-  @media (min-width: 768px) {
-    @media (min-width: 1440px) {
-    }
-  }
 `;
 export const RectangleCard = styled.div`
   background-color: #97d28b;
@@ -186,18 +165,10 @@ export const RectangleCard = styled.div`
   @media (min-width: 768px) {
     margin-top: 22px;
   }
-
-  @media (min-width: 1440px) {
-  }
 `;
 export const SignWrapInner = styled.div`
   display: flex;
   justify-content: space-between;
-
-  @media (min-width: 768px) {
-    @media (min-width: 1440px) {
-    }
-  }
 `;
 
 export const ArrowWrapCard = styled.div`
@@ -230,10 +201,6 @@ export const SignWrapSecond = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 12px;
-  @media (min-width: 768px) {
-    @media (min-width: 1440px) {
-    }
-  }
 `;
 
 export const SignSecond = styled.p`
@@ -243,9 +210,4 @@ export const SignSecond = styled.p`
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.48px;
-
-  @media (min-width: 768px) {
-    @media (min-width: 1440px) {
-    }
-  }
 `;

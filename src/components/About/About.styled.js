@@ -13,9 +13,7 @@ export const AboutSection = styled.section`
 
 export const AboutTitle = styled.h2`
   color: #173d33;
-
   font-size: 28px;
-
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
@@ -36,9 +34,7 @@ export const AboutText = styled.p`
   color: #173d33;
 
   text-align: justify;
-
   font-size: 16px;
-
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.64px;

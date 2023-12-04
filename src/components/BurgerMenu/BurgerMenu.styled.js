@@ -10,7 +10,6 @@ export const BurgerMenuWrapper = styled.div`
   z-index: 999;
   border-radius: 25px;
   background-color: rgba(23, 61, 51, 0.75);
-
 `;
 
 export const BurgerMenuContainer = styled.div`
@@ -25,7 +24,7 @@ export const BurgerMenuContainer = styled.div`
 export const Rectangle = styled.div`
   width: 100%;
   height: 1px;
- background-color: #fff;
+  background-color: #fff;
   margin-top: 8px;
 `;
 
@@ -60,10 +59,7 @@ export const MenuWrap = styled.div`
   gap: 8px;
 `;
 
-export const MenuList = styled.ul`
- 
-  
-`;
+export const MenuList = styled.ul``;
 
 export const MenuItem = styled.a`
   color: #fff;
@@ -79,7 +75,6 @@ export const MenuItem = styled.a`
   &:hover,
   &:focus {
     color: #97d28b;
-   
   }
 `;
 
@@ -96,7 +91,6 @@ export const IconClose = styled.svg`
   height: 20px;
   stroke: currentColor;
   fill: none;
- 
 `;
 
 export const MenuWrapSecond = styled.div`
@@ -112,7 +106,6 @@ export const LinkSocial = styled.a`
   &:focus {
     > svg {
       color: #97d28b;
-    
     }
   }
 `;
@@ -122,7 +115,7 @@ export const IconSocial = styled.svg`
   height: 24px;
   stroke: currentColor;
   fill: currentColor;
-  margin-right:8px;
+  margin-right: 8px;
 `;
 
 export const Backdrop = styled.div`

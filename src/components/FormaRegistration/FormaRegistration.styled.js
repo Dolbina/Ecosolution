@@ -26,15 +26,13 @@ export const FormField = styled.label`
   line-height: normal;
   letter-spacing: -0.64px;
   background-color: transparent;
-
-   
 `;
 
 export const ErrorMessage = styled(FormikErrorMessage)`
   font-size: 12px;
   text-align: right;
   color: #d28b8b;
- 
+
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.48px;
@@ -56,10 +54,10 @@ export const TextFeedback = styled.textarea`
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.72px;
-  
 `;
 
 export const ButtonWrap = styled.div`
-margin-top:16px;
-    display: flex;
-    justify-content: flex-end`;
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+`;

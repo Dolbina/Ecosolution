@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ElectricitySection = styled.section`
   margin-top: 36px;
- 
+
   @media (min-width: 768px) {
     margin-top: 100px;
   }
@@ -16,11 +16,6 @@ export const ElecticityWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  @media (min-width: 768px) {
-  }
-  @media (min-width: 1440px) {
-  }
 `;
 
 export const ElectricityTitle = styled.h2`
@@ -48,8 +43,6 @@ export const Rectangle = styled.div`
   background-color: #97d28b;
   @media (min-width: 768px) {
     height: 87px;
-  }
-  @media (min-width: 1440px) {
   }
 `;
 

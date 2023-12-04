@@ -13,11 +13,10 @@ import {
   MenuWrapSecond,
   LinkSocial,
   IconSocial,
-  Backdrop
+  Backdrop,
 } from './BurgerMenu.styled';
 
 import { IconAddress } from '../ContactUs/ContactUs.styled';
-
 
 import icon from '../../assets/icons/symbol-defs (1).svg';
 
@@ -26,7 +25,7 @@ const BurgerMenu = ({ closeMenu }) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
-      closeMenu(); 
+      closeMenu();
     }
   };
   return (

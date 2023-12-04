@@ -26,24 +26,14 @@ export const ContactUsTitle = styled.h2`
 `;
 
 export const ContactUsTitleWrap = styled.div`
-display: flex;
-justify-content:center;
-text-align: center;
-  @media (min-width: 768px) {
-  }
-  @media (min-width: 1440px) {
-  }
+  display: flex;
+  justify-content: center;
+  text-align: center;
 `;
 
 export const ContactUsWrap = styled.div`
-margin-top: 24px;
-margin-bottom:36px;
-  @media (min-width: 768px) {
-
-  }
-  @media (min-width: 1440px) {
-
-  }
+  margin-top: 24px;
+  margin-bottom: 36px;
 `;
 export const ContactUsText = styled.p`
   color: #173d33;
@@ -53,23 +43,13 @@ export const ContactUsText = styled.p`
   line-height: normal;
   letter-spacing: -0.64px;
   margin-bottom: 8px;
-
-  @media (min-width: 768px) {
-  }
-  @media (min-width: 1440px) {
-  }
 `;
 export const AddressWrap = styled.div`
-display: flex;
-flex-direction:column;
-
-  @media (min-width: 768px) {
-  }
-  @media (min-width: 1440px) {
-  }
+  display: flex;
+  flex-direction: column;
 `;
 export const IconAddress = styled.svg`
-margin-right:8px;
+  margin-right: 8px;
   width: 24px;
   height: 24px;
   stroke: currentColor;
@@ -77,7 +57,7 @@ margin-right:8px;
 `;
 
 export const IconFacebook = styled.svg`
- margin-left:12px;
+  margin-left: 12px;
   width: 24px;
   height: 24px;
   stroke: currentColor;
@@ -92,7 +72,7 @@ export const ContactUsPhone = styled.a`
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.8px;
-  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -103,12 +83,12 @@ export const ContactUsPhone = styled.a`
 `;
 
 export const SocialWrap = styled.div`
-display: flex;
-gap:32px;
+  display: flex;
+  gap: 32px;
 `;
 
 export const ContactList = styled.ul`
-display: flex;
-flex-direction:column;
-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 `;

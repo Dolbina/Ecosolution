@@ -1,4 +1,3 @@
-
 import styled from 'styled-components';
 
 export const FAQSection = styled.section`
@@ -31,9 +30,9 @@ export const FAQTitle = styled.h2`
 `;
 
 export const FAQContainer = styled.div`
-margin-top: 24px;
+  margin-top: 24px;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 `;
 
 export const FAQText = styled.p`
@@ -45,8 +44,6 @@ export const FAQText = styled.p`
   line-height: normal;
   letter-spacing: -0.72px;
 
-  @media (min-width: 768px) {
-  }
   @media (min-width: 1440px) {
     font-size: 24px;
   }
@@ -61,19 +58,15 @@ export const FAQTextWrap = styled.div`
   @media (min-width: 768px) {
     display: none;
   }
-  @media (min-width: 1440px) {
-  }
 `;
 
 export const FAQTextWrapTabl = styled.div`
-display: none;
+  display: none;
   @media (min-width: 768px) {
     display: flex;
     gap: 12px;
     flex-direction: column;
     align-items: center;
-  }
-  @media (min-width: 1440px) {
   }
 `;
 
@@ -82,9 +75,6 @@ export const FAQTitileWrap = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  @media (min-width: 1440px) {
-   
   }
 `;
 
@@ -98,6 +88,3 @@ export const FAQWrap = styled.div`
     gap: 185px;
   }
 `;
-
-
-

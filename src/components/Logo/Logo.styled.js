@@ -25,21 +25,20 @@ export const LogoName = styled.p`
 export const Icon = styled.svg`
   width: 31px;
   height: 18px;
-  
+
   fill: none;
 `;
 
 export const LogoSecondWrap = styled.div`
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
- 
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 export const LogoSecondText = styled.p`
   color: #173d33;
-  
+
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -49,4 +48,3 @@ export const LogoSecondText = styled.p`
 export const LogoTextSpan = styled.span`
   color: #97d28b;
 `;
-

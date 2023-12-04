@@ -8,7 +8,6 @@ export const FAQItemContainer = styled.div`
   &:last-child {
     border-bottom: none;
   }
-
 `;
 
 export const Question = styled.div`
@@ -39,8 +38,6 @@ export const Answer = styled.div`
   line-height: normal;
   letter-spacing: -0.56px;
 
-  @media (min-width: 768px) {
-  }
   @media (min-width: 1440px) {
     margin-bottom: 16px;
     font-size: 16px;
@@ -56,7 +53,6 @@ export const IconQuestion = styled.svg`
     width: 28px;
     height: 28px;
   }
- 
 `;
 
 export const QuestionWrap = styled.div`

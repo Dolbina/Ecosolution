@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { BurgerWrap, IconBurger } from './Burger.styled.js';
 import icon from '../../assets/icons/symbol-defs (1).svg';

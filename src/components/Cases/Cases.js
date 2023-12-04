@@ -1,4 +1,4 @@
-import React, {  useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
@@ -11,7 +11,6 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import {
   CasesSection,
   CasesTitle,
-  
   CasesWrap,
   CasesWrapInner,
   ArrowWrap,
@@ -33,8 +32,6 @@ import {
   SignSecond,
   SignWrapSecond,
 } from './Cases.styled';
-
-
 
 import icon from '../../assets/icons/symbol-defs (1).svg';
 
@@ -61,7 +58,7 @@ const Cases = () => {
     setCanGoPrev(!swiper.isBeginning);
     setCanGoNext(!swiper.isEnd);
   };
-   SwiperCore.use([Pagination, Autoplay, Navigation]);
+  SwiperCore.use([Pagination, Autoplay, Navigation]);
   return (
     <>
       <CasesSection id="cases-section">
@@ -115,7 +112,6 @@ const Cases = () => {
           scrollbar={{ draggable: true }}
           pagination={{
             type: 'fraction',
-            // el: '.swiper-pagination',
           }}
           breakpoints={{
             380: {

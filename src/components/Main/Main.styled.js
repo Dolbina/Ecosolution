@@ -15,11 +15,6 @@ export const MainWrapper = styled.div`
   gap: 24px;
   flex-direction: column;
   justify-content: center;
-
-  @media (min-width: 768px) {
-  }
-  @media (min-width: 1440px) {
-  }
 `;
 export const MainWrapperInner = styled.div`
   display: flex;
@@ -31,7 +26,6 @@ export const MainWrapperInner = styled.div`
     flex-wrap: nowrap;
     justify-content: space-between;
   }
- 
 `;
 export const MainTextWrap = styled.div`
   display: flex;
@@ -84,7 +78,7 @@ export const TitleWrap = styled.div`
 export const MainText = styled.p`
   color: #173d33;
   text-align: justify;
-   font-size: 16px;
+  font-size: 16px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.64px;

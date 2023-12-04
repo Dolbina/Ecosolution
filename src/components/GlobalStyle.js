@@ -6,7 +6,6 @@ import FiraSansThin from '../assets/fonts/FiraSans-Thin.ttf';
 import OswaldBold from '../assets/fonts/Oswald-Bold.ttf';
 import OswaldRegular from '../assets/fonts/Oswald-Regular.ttf';
 
-
 export const GlobalStyle = createGlobalStyle`
    @font-face {
         font-family: 'FiraSansRegular';

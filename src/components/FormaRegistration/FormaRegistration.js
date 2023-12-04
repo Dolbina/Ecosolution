@@ -1,4 +1,3 @@
-
 import { Formik, Field } from 'formik';
 import { nanoid } from 'nanoid';
 import * as yup from 'yup';
@@ -8,13 +7,12 @@ import {
   Form,
   ErrorMessage,
   TextFeedback,
-  ButtonWrap
+  ButtonWrap,
 } from './FormaRegistration.styled.js';
 
 import { ButtonLearnMore, Circle, IconArrow } from '../Main/Main.styled';
 
 import icon from '../../assets/icons/symbol-defs (1).svg';
-
 
 const contactSchema = yup.object().shape({
   name: yup
@@ -105,7 +103,7 @@ export const FormaRegistration = ({ onSave }) => {
             </FormField>
 
             <TextArea
-               id="message"
+              id="message"
               label="Message:"
               name="message"
               rows="6"

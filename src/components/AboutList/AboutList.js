@@ -2,13 +2,11 @@ import {
   AboutValuesWrap,
   AboutValuesList,
   AboutValuesItem,
- 
   IconValues,
   AboutValuesTitle,
   AboutValuesText,
   Rectangle,
   ImgValues,
- 
 } from './AboutList.styled.js';
 
 import icon from '../../assets/icons/symbol-defs (1).svg';
@@ -83,35 +81,30 @@ const AboutList = () => {
           </picture>
         </AboutValuesItem>
         <AboutValuesItem>
-         
-            <AboutValuesTitle>
-              <IconValues>
-                <use href={icon + '#icon-cpu-charge'}></use>
-              </IconValues>
-              Innovation
-            </AboutValuesTitle>
-            <Rectangle />
-            <AboutValuesText>
-              we use the latest technology to implement non-standard solutions
-            </AboutValuesText>
-          
+          <AboutValuesTitle>
+            <IconValues>
+              <use href={icon + '#icon-cpu-charge'}></use>
+            </IconValues>
+            Innovation
+          </AboutValuesTitle>
+          <Rectangle />
+          <AboutValuesText>
+            we use the latest technology to implement non-standard solutions
+          </AboutValuesText>
         </AboutValuesItem>
         <AboutValuesItem>
-        
-            <AboutValuesTitle>
-              <IconValues>
-                <use href={icon + '#icon-ranking'}></use>
-              </IconValues>
-              Quality
-            </AboutValuesTitle>
-            <Rectangle />
-            <AboutValuesText>
-              we do not strive to be the first among others, but we want to be
-              the best in our business
-            </AboutValuesText>
-         
+          <AboutValuesTitle>
+            <IconValues>
+              <use href={icon + '#icon-ranking'}></use>
+            </IconValues>
+            Quality
+          </AboutValuesTitle>
+          <Rectangle />
+          <AboutValuesText>
+            we do not strive to be the first among others, but we want to be the
+            best in our business
+          </AboutValuesText>
         </AboutValuesItem>
-        
       </AboutValuesList>
     </AboutValuesWrap>
   );

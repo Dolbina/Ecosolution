@@ -14,7 +14,7 @@ import {
 import UniversalButton from 'components/UniversalButton/UniversalButton';
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState(1); 
+  const [openIndex, setOpenIndex] = useState(1);
 
   const handleToggleItem = id => {
     setOpenIndex(prevId => (prevId === id ? null : id));
