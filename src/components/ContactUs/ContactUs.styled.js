@@ -37,6 +37,7 @@ text-align: center;
 
 export const ContactUsWrap = styled.div`
 margin-top: 24px;
+margin-bottom:36px;
   @media (min-width: 768px) {
 
   }
