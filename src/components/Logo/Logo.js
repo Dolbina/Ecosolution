@@ -14,9 +14,9 @@ const Logo = () => {
   return (
     <>
       <LogoWrapper>
-        <div>
+        <div> 
           <Icon>
-            <use href={icon + '#icon-bgAsset-324-2'}></use>
+            <use href={icon + '#icon-bgAsset-324-2' }></use>
           </Icon>
         </div>
         <LogoName>ecosolution</LogoName>
@@ -28,8 +28,10 @@ const Logo = () => {
           </div>
           <div>
             <LogoSecondText>FOR LIFE</LogoSecondText>
+             
           </div>
         </LogoSecondWrap>
+        
       </LogoWrapper>
     </>
   );

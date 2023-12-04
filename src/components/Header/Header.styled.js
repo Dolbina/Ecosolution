@@ -10,6 +10,7 @@ export const HeaderWrapper = styled.div`
   background-color: #fff;
   z-index: 999;
   
+  
 `;
 export const HeaderContainer = styled.div`
   display: flex;

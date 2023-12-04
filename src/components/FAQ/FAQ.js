@@ -55,7 +55,7 @@ const FAQ = () => {
   ];
 
   return (
-    <FAQSection>
+    <FAQSection id="fqa-section">
       <FAQWrap>
         <FAQTitileWrap>
           <FAQTitle>Frequently Asked Questions</FAQTitle>

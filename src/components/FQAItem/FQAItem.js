@@ -15,9 +15,11 @@ const FAQItem = ({ question, answer, isOpen, toggleItem }) => {
       onClick={toggleItem}
     >
       <QuestionWrap>
-        <IconQuestion isOpen={isOpen}>
+        <div className={`icon-question ${isOpen ? 'open' : ''}`}>
+        <IconQuestion $isOpen={isOpen}>
           <use href={icon + (isOpen ? '#icon-minus' : '#icon-add')}></use>
         </IconQuestion>
+          </div>
         <div>
           <Question>{question}</Question>
           {isOpen && <Answer>{answer}</Answer>}

@@ -38,7 +38,7 @@ const Main = () => {
   };
   return (
     <>
-      <MainSection>
+      <MainSection id="main-section">
         <MainWrapper>
           <MainWrapperInner>
             <TitleWrap>

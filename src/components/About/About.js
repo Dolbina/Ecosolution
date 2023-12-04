@@ -10,7 +10,7 @@ import AboutList from 'components/AboutList/AboutList';
 
 const About = () => {
     return (
-      <AboutSection>
+      <AboutSection id="about-section">
         <AboutWrap>
           <AboutTitle>Main values of our company</AboutTitle>
           <AboutText>
@@ -21,7 +21,7 @@ const About = () => {
             meet the world's energy needs.
           </AboutText>
         </AboutWrap>
-       <AboutList/>
+        <AboutList />
       </AboutSection>
     );
 };

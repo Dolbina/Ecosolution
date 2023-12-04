@@ -31,16 +31,16 @@ export const MainWrapperInner = styled.div`
     flex-wrap: nowrap;
     justify-content: space-between;
   }
-  /* @media (min-width: 1440px) {
-    gap: 296px;
-  } */
+ 
 `;
 export const MainTextWrap = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 24px;
 
   @media (min-width: 768px) {
+    align-items: flex-start;
     width: 342px;
     height: 57px;
     gap: 43px;
@@ -83,11 +83,8 @@ export const TitleWrap = styled.div`
 
 export const MainText = styled.p`
   color: #173d33;
-
   text-align: justify;
-  font-family: Fira Sans;
-  font-size: 16px;
-
+   font-size: 16px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.64px;
@@ -99,7 +96,7 @@ export const ButtonLearnMore = styled.button`
   align-items: center;
   justify-content: center;
   gap: 12px;
-  min-width: 140px;
+  width: 140px;
   height: 39px;
   padding: 4px 4px 4px 16px;
   text-align: center;
@@ -124,6 +121,10 @@ export const ButtonLearnMore = styled.button`
   &:focus {
     background-color: #173d33;
     color: #97d28b;
+    > span {
+      background-color: #97d28b;
+      color: #173d33;
+    }
   }
 `;
 

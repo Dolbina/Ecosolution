@@ -5,13 +5,12 @@ export const BurgerMenuWrapper = styled.div`
   top: 36px;
   right: 20px;
   width: 320px;
-  height: 100%;
+  height: 100vh;
 
   z-index: 999;
   border-radius: 25px;
-  background: rgba(23, 61, 51, 0.75);
+  background-color: rgba(23, 61, 51, 0.75);
 
-  backdrop-filter: blur(12.5px);
 `;
 
 export const BurgerMenuContainer = styled.div`
@@ -47,7 +46,12 @@ export const CloseButton = styled.button`
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.8px;
-  
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #97d28b;
+  }
 `;
 
 export const MenuWrap = styled.div`
@@ -61,18 +65,21 @@ export const MenuList = styled.ul`
   
 `;
 
-export const MenuItem = styled.li`
+export const MenuItem = styled.a`
   color: #fff;
- 
+
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.96px;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover, :focus {
+  &:hover,
+  &:focus {
     color: #97d28b;
+   
   }
 `;
 
@@ -90,4 +97,41 @@ export const IconClose = styled.svg`
   stroke: currentColor;
   fill: none;
  
+`;
+
+export const MenuWrapSecond = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+export const LinkSocial = styled.a`
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    > svg {
+      color: #97d28b;
+    
+    }
+  }
+`;
+
+export const IconSocial = styled.svg`
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  fill: currentColor;
+  margin-right:8px;
+`;
+
+export const Backdrop = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(23, 61, 51, 0.25);
+  backdrop-filter: blur(2px);
+  z-index: 99;
 `;

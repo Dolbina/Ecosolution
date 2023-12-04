@@ -9,8 +9,6 @@ export const FAQItemContainer = styled.div`
     border-bottom: none;
   }
 
-  &.open {
-  }
 `;
 
 export const Question = styled.div`
@@ -45,6 +43,7 @@ export const Answer = styled.div`
   }
   @media (min-width: 1440px) {
     margin-bottom: 16px;
+    font-size: 16px;
   }
 `;
 
